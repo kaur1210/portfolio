@@ -1,0 +1,74 @@
+body {
+  min-height: 100vh;
+  background-image:url('images/background.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+header {
+  background: rgb(74, 74, 0);
+  color: white;
+  text-align: center;
+}
+
+.main-container {
+  margin: 3rem auto;
+}
+
+.main-logo {
+  text-align: center;
+  margin: 2rem auto 10rem auto;
+}
+
+.nav-link {
+  padding: 0.5rem;
+  color: #cecece;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer {
+  background: rgb(74, 74, 0);
+  padding: 15px 0;
+}
+.footer a {
+  color: #b3b5b3;
+  font-size: 25px;
+  padding: 15px;
+  transition: all .5s ease;
+}
+
+.footer a:first-child{
+  padding-left: 0;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+/* Portfolio Styling */
+
+.custom-card {
+  margin-bottom: 20px;
+}
+
+.my-button {
+  background-color: rgb(74, 74, 0);
+  border-color: rgb(74, 74, 0);
+}
+
+.my-button:hover {
+  background-color: rgb(74, 74, 0);
+}
